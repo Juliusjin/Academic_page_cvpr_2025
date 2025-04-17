@@ -204,6 +204,29 @@
   </div>
 </section>
 
+<!-- Diverse semantic expression Section -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column">
+        <h2 class="title is-3">Diverse semantic expression</h2>
+        
+        <!-- Image with explanation -->
+        <div class="content has-text-justified">
+          <figure class="image">
+            <!-- 替换为你的工作原理图片路径 -->
+            <img src="static/images/pipeline_1115_1.png" alt="Method Overview">
+          </figure>
+          
+          <p class="mt-4">
+            In the text-encoding stage of most text-to-image models, the first stage involves converting the prompt into a numerical representation. This is typically done by converting the words into tokens, each equivalent to an entry in the model's dictionary. These entries are then converted into an "embedding" - a continuous vector representation for the specific token. These embeddings are usually learned as part of the training process. In our work, we find new embeddings that represent specific, user-provided visual concepts. These embeddings are then linked to new pseudo-words, which can be incorporated into new sentences like any other word. In a sense, we are performing inversion into the text-embedding space of the frozen model. We're calling the process 'Textual Inversion'.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 <!-- Image carousel -->
 <section class="hero is-small">
@@ -247,25 +270,7 @@
 
 
 
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End youtube video -->
+
 
 
 <!-- Video carousel -->
